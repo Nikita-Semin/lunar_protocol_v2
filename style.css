@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech Mono', monospace;
+  overflow-x: hidden;
+  background-color: #000;
+  color: #aafcff;
+  transition: background 1s ease, color 1s ease;
+}
+.cyan-theme { background-color: #00111a; color: #aafcff; }
+.light-mode { background-color: #f8f9fa; color: #1e293b; }
+.amber-theme { background-color: #1a0f00; color: #ffbf00; }
+.green-theme { background-color: #001a00; color: #00ff99; }
+#terminal { padding: 20px; min-height: 100vh; white-space: pre-wrap; }
+.prompt { color: inherit; }
+input {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  width: 80%;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
